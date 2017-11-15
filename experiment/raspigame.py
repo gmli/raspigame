@@ -567,11 +567,11 @@ class Character(Sprite):
             #~ print(math.degrees(self.move_angle))
 
 
-            #~ self.pex_trail.draw()
+            self.pex_trail.draw()
             self.n += 1
             if self.n % 2 == 0:
                 pass
-                #~ self.pex_trail.update()
+                self.pex_trail.update()
             
             self.speed = min(self.speed, self.max_speed)
 
